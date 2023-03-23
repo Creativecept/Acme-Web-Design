@@ -6,8 +6,8 @@
 }
 
 .bars{
-    background: #171d20;
-    border-bottom: 2px solid rgb(255, 0, 0);
+    background: #000c11;
+    border-bottom: 2px solid rgb(72, 255, 0);
     width: 100%;
 }
 
@@ -27,7 +27,7 @@ nav{
 }
 
 .bars ul li::after{
-    background: rgb(255, 0, 0);
+    background: rgb(72, 255, 0);
     content: "";
     display: block;
     height: 2px;
@@ -47,7 +47,7 @@ nav{
 }
 
 #home{
-    color: rgb(255, 0, 0);
+    color: rgb(72, 255, 0);
 }
 
 .bars h2{
@@ -55,7 +55,7 @@ nav{
 }
 
 .bars h2 span{
-    color: rgb(255, 0, 0);
+    color: rgb(72, 255, 0);
 }
 
 @media(max-width: 700px){
@@ -117,7 +117,7 @@ nav{
 
 .newsletter{
     text-align: center;
-    background: #171d20;
+    background: #000c11;
     width: 100%;
 }
 
@@ -139,7 +139,7 @@ nav{
 
 .newsletter button{
     border: none;
-    background: rgb(255, 0, 0);
+    background: rgb(72, 255, 0);
     color: #fff;
     cursor: pointer;
     padding: 7px 15px;
@@ -148,7 +148,7 @@ nav{
 
 .newsletter button:hover{
     background: #fff;
-    color: rgb(255, 0, 0);
+    color: rgb(72, 255, 0);
 }
 
 @media(max-width: 700px){
@@ -201,8 +201,8 @@ nav{
     line-height: 1.5;
     padding-bottom: 40px;
     position: relative;
-    left: 25%;
-    width: 50%;
+    left: 10%;
+    width: 80%;
 }
 
 @media(max-width: 700px){
@@ -214,7 +214,7 @@ nav{
 
 /* Footer Section */
 footer{
-    background: rgb(255, 0, 0);
+    background: rgb(72, 255, 0);
     height: 60px;
     width: 100%;
 }
@@ -254,20 +254,21 @@ footer p{
 }
 
 .p-border{
-    background: #171d20;
+    background: #000c11;
     color: #fff;
     padding: 15px;
 }
 
 .about-right{
     line-height: 1.5;
-    background: #171d20;
+    background: #000c11;
     height: 450px;
     color: #fff;
     padding: 15px;
 }
 
 .about-right h3{
+    color: rgb(72, 255, 0);
     padding-bottom: 20px;  
 }
 
@@ -321,7 +322,7 @@ footer p{
 }
 
 .right-col{
-    background: #171d20;
+    background: #000c11;
     padding: 20px 15px;
     height: 45vh;
 }
@@ -343,7 +344,7 @@ footer p{
 }
 
 .right-col button{
-    background: rgb(255, 0, 0);
+    background: rgb(72, 255, 0);
     border: none;
     color: #fff;
     cursor: pointer;
@@ -353,7 +354,7 @@ footer p{
 
 .right-col button:hover{
     background: #fff;
-    color: rgb(255, 0, 0);
+    color: rgb(72, 255, 0);
 }
 
 @media(max-width: 700px){
